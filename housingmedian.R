@@ -5,7 +5,7 @@
 
 #1) Accessing the Data Set
 getwd()
-setwd("/Users/Goksu/Desktop/Data Science/data/Class Project")  # Relative path
+setwd("/Users/Goksu/Desktop/Data Science/data/Class Project")  # Relative path, do not forget to change according to your file directory
 housing = read.csv("housing.csv")  # read csv file
 head(housing)
 summary(housing)
